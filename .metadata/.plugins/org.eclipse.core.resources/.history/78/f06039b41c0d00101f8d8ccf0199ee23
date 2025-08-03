@@ -1,0 +1,5 @@
+package com.canteenFS.canteenFoodOrdering.Repository;
+
+public class FoodItemRepository {
+
+}

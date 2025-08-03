@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="com.canteenFS.canteenFoodOrdering.Repository.FoodItemRepository"/>
+    <fullyQualifiedTypeName name="com.canteenFS.canteenFoodOrdering.Service.FoodItemService"/>
+    <fullyQualifiedTypeName name="com.canteenFS.canteenFoodOrdering.FoodItem"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+</qualifiedTypeNameHistroy>

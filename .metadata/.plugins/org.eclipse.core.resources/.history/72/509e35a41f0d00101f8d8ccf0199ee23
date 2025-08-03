@@ -1,0 +1,20 @@
+package com.canteenFS.canteenFoodOrdering.Service;
+
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class FoodItemService {
+
+    private final FoodItemRepository foodItemRepository;
+
+    public FoodItemService(FoodItemRepository foodItemRepository) {
+        this.foodItemRepository = foodItemRepository;
+    }
+
+    public List<FoodItem> getAllFoodItems() {
+        return foodItemRepository.findAll();
+    }
+}
+

@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Bites - Food Ordering System</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/lucide-icons/dist/umd/lucide.css" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="background-image"></div>
+    
+    <div class="content">
+      <div class="content-box">
+        <div class="icon">
+          <i data-lucide="utensils" class="utensils-icon"></i>
+        </div>
+        <h1>Campus Bites</h1>
+        <p>Skip the lines, order ahead, and enjoy fresh, delicious meals from your campus canteen.</p>
+        <button class="menu-button">
+          Go to Menu
+          <i data-lucide="arrow-right" class="arrow-icon"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Quick Ordering</h3>
+            <p>Order your meals in advance with just a few taps</p>
+          </div>
+          <div class="feature">
+            <h3>Fresh & Healthy</h3>
+            <p>Enjoy nutritious meals prepared fresh daily</p>
+          </div>
+          <div class="feature">
+            <h3>Easy Pickup</h3>
+            <p>Skip the queue with dedicated pickup points</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
